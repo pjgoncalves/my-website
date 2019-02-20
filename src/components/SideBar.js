@@ -48,7 +48,7 @@ class SideBar extends Component {
         <div className = { this.state.sidebarFlipped ? 'flipped sidebar-wrapper' : 'sidebar-wrapper' } >
           
           <div className="sidebar-facet front social-links">
-          <p>My online aliases</p>
+          {/* <p>My online aliases</p> */}
             <SocialLinks/>
           </div>
           <div className="sidebar-facet back contact-form">
