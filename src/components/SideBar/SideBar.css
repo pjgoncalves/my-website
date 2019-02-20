@@ -37,6 +37,8 @@
 
 .sidebar-toggle{
    position: relative;
+   /* temporary */
+   display: none;
 }
 
 .sidebar-toggle button{
