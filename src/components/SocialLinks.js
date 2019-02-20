@@ -31,8 +31,10 @@ class SocialLinks extends Component {
   }
 
   componentDidMount() {
+    /*
     console.log("✅ Componenet did mount");
     console.log("🏁 dataLoaded is " + this.state.dataLoaded);
+    */
   }
 
 
@@ -40,7 +42,7 @@ class SocialLinks extends Component {
     this.setState({
       dataLoaded: flag
     });
-    console.log("🏁 dataLoaded is " + this.state.dataLoaded);
+    // console.log("🏁 dataLoaded is " + this.state.dataLoaded);
   }
 
   render() {
