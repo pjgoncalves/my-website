@@ -5,24 +5,24 @@ import './ContactForm/ContactForm.css';
 function ContactForm() {
       return (
       <div className="contactFormWrapper">
-        <form name="contact" method="post">
+        <form name="contact" method="post" name="netlify-form" >
           <div name="contact">
             <div className="field">
               <label className="label">Name</label>
                 <div className="control">
-                  <input className="input" type="text" placeholder="What's you name?"/>
+                  <input className="input" type="text" placeholder="What's you name?" value="netlify-form" />
                 </div>
             </div>
             <div className="field">
               <label className="label">Email</label>
               <div className="control">
-                <input className="input" type="email" placeholder="Your digital address" />
+                <input className="input" type="email" placeholder="Your digital address" value="netlify-form"/>
               </div>
             </div>
             <div className="field">
               <label className="label">Talk to me</label>
               <div className="control">
-                <textarea className="textarea" placeholder="Drop me a line or two"></textarea>
+                <textarea className="textarea" placeholder="Drop me a line or two" value="netlify-form" ></textarea>
               </div>
             </div>
             <div className="field is-grouped">
