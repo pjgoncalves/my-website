@@ -17,7 +17,7 @@ class App extends Component {
       <div className = "rootReactComponent">
         <div className = "container">
           <div className = "columns is-centered" >
-            <div className = "cardWrapper column is-8">
+            <div className = "cardWrapper column is-10">
               <div className = "columns">
                 <div className = "column">
                   <div className = "" >

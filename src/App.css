@@ -26,7 +26,7 @@ h2{
 }
 
 .container > .columns{
-  padding: 15vh 0;
+  padding: 10vh 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -40,5 +40,13 @@ h2{
 
   .sidebar-facet{
     padding: 10vw;
+  }
+
+  .sidebar-facet.front{
+    transform: none;
+  }
+
+  body{
+    margin-bottom: 120px;
   }
 }

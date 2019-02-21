@@ -20,6 +20,10 @@
    box-shadow: 0 0 7px 2px #39444273;
 }
 
+.sidebar-facet.front {
+   transform: translateY(50%);
+}
+
 .sidebar-wrapper{
    position: relative;
    width: 100%;

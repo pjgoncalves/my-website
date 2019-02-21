@@ -13,8 +13,10 @@ class Card extends Component {
           </img>
         </div>
         <h1>Hello friend<span role="img" aria-label="hi emoji">🖖</span></h1>
-        <p>I am a Front-end Developer with more than four years of experience.
-          For the last 3 years my job was mainly, to build data consumption dashboards and visualisations. <br/> In the last year or so, I've been currently working in the Hitachi Design System team as a DevUX, in close collaboration with a product development team for a React based UI Kit.</p>
+        <p>I'm a Front-end Developer with 4 years of experience. <br/><br/></p>
+        <p>In the last year or so, I've been working in the Hitachi Design System team, building and testing components and reviewing design handoffs. </p>
+        <p><br/>Previously, I worked on a Pentaho services team, building data consumption dashboards and visualisations.
+        </p>
       </div>
     );
   }
